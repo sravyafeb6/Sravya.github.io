@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>AirLights</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="AirLights.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=MuseoModerno:ital@0;1&family=Poppins&family=Prompt:ital,wght@1,500&family=Quicksand:wght@300;400;500;600&family=Righteous&family=Silkscreen&display=swap" rel="stylesheet">
+
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=MuseoModerno:ital@0;1&family=Poppins&family=Quicksand:wght@300;400;500;600&family=Righteous&family=Silkscreen&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.typekit.net/oxu5ssx.css">
+
+  
+  <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,200" />
+
+</head>
+
+<body>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown()">
+      <i><img src="images/bars.svg"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="index.html">HOME</a>
+      <a href="index.html">FEAT. WORKS</a>
+      <a href="index.html">PLAYGROUND</a>
+      <a href="index.html">CONNECT</a>
+      
+    </div>
+  </div>
+  
+ <!-- <div class="circle"></div> -->
+
+  
+
+  
+    <div class="content0">
+      <div class="description0">
+        <div class="heading"><h>AIRLIGHTS</h></div>
+        <p>Intuitive armband device that enhances bicyclist safety with hands-free turn signals. Triggers a left turn signal when elbow moves away from the body and a right turn signal when elbow moves toward the body, stopping signaling when elbow is at rest.
+        </p>
+      </div>
+  
+        <div class="photos">
+          <img src="images/stem.jpg" alt="Image 1">
+   
+
+          <img src="images/h3.png" alt="Image 2">
+      </div>
+   
+    </div>
+
+  
+  
+  
+  
+
+  
+   
+   
+
+
+  
+    <div class="container">
+      <div class="colum" style="flex-basis: 30%;">
+        <div class="card">
+          <p><u>Role</u>: lead engineer, programmer, and team manager</p>
+        </div>
+      </div>
+      <div class="colum" style="flex-basis: 30%;">
+          <div class="card">
+            <p><u>Skills</u>: Prototyping, Design, Coding, Project Management, Arduino</p>
+          </div>
+        </div>
+      <div class="colum" style="flex-basis: 40%;">
+        <div class="card">
+          <p><u>Awards</u>: State championship sponsored by/from Presbyterian @ NM Governor's STEM Challenge</p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="carousel">
+      <div class="heading-column">
+        <div onclick="showDescription(0)" class="active">Problem</div>
+        <div onclick="showDescription(1)">Solution</div>
+        <div onclick="showDescription(2)">Objective</div>
+      </div>
+      <div class="description-column">
+        <div id="description-0" class="description active">Bicyclists often encounter safety challenges when signaling turns, particularly in low-light conditions. AirLights was initiated based on personal experiences during bike rides on dimly lit streets, where the absence of adequate turn signals posed a significant safety concern. Options such as purchasing and installing separate tail lights or manually signaling turns presented drawbacks and limitations.
+
+        </div>
+        <div id="description-1" class="description">To ensure an intuitive and seamless user experience, I implemented an armband as the primary control interface. This eliminates the to press any physical buttons, simplifying interaction. Additionally, the armband remains visible and accessible regardless of the user's attire or accessories, and promotes safer usage in low-light environments by eliminating the need to extend one's arm for signaling.</div>
+        <div id="description-2" class="description">Our objective is to create an arm movement tracking device with a budget constraint of $500. This device will accurately monitor arm movements and trigger turn signals accordingly, ensuring the safety of bicyclists. To achieve this, we aim to develop an algorithm that achieves a minimum success rate of 80% in accurately recognizing and responding to arm gestures for signaling.</div>
+      </div>
+    </div>
+      
+<div class="outerr">
+  <div class="header-contentt">
+    <div class="header-textt">
+      <h1 class="titlee">Design Process</h1>
+    <div class="in">
+
+        <p><u>Initial Ideas</u>: A wearable jacket with turn signals: accessories such as a backpack could cover up the signaling mechanism. 
+
+          <br><br> Turn signal helmet / tail lights on the bike: would lack seamlessness because the user would have to manually press buttons.
+          </p>
+      </div>
+     
+    </div>
+  </div>
+  <div class="titleee">
+    <div class="inn">
+    
+      <p><u>Selected Idea</u>:  For intuitiveness and seamlessness, without the need for the user to press any buttons, I opted for an armband.
+
+       <br><br> It is visible with any attire and accessories, users don't need to extend their arm for signaling, which can be dangerous in low-light environments, and is cost-effective.</p>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  
+</div>
+
+
+<div class="outer-container">
+<div class="image-panel">
+  <div class="image-container">
+    <img src="images/s1.png" alt="Image 1">
+  </div>
+  <div class="image-container">
+    <img src="images/s2.png" alt="Image 2">
+  </div>
+  <div class="image-container">
+    <img src="images/s3.png" alt="Image 3">
+  </div>
+  <div class="image-container">
+    <img src="images/s4.png" alt="Image 4">
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="top"> <h1>Prototype 1 </h1> </div>
+<div class="img-container7">
+  <img src="images/airlightpro.png">
+  <img src="images/airlightpro2.png">
+</div>
+</div>
+
+
+
+
+
+<div class="c1">
+<div class="content-box">
+  <div class="image-box">
+    <p><h1>Demo</h1>The main component, accelerometer and gyroscope, tracks the orientation and movement of the user's arm. Based on arm movement and positioning, the appropriate turn signals are triggered on the RGB Matrix. 
+      Prototype 1 costs around $42 dollars and prototype 2 costs around $41.</p>
+  </div>
+  <div class="video-box">
+    <iframe width="400" height="250" src="https://www.youtube.com/embed/TAOOiB5Xcsg" frameborder="0" allowfullscreen style="border-radius: 15px;"></iframe>
+  </div>
+  
+ 
+</div>
+</div>
+
+
+<div class="c11">
+  <div class="content-box1">
+    <div class="video-box1">
+      <h>Test Results</h>
+      <img src="images/airtest.svg" controls></img>
+    </div>
+    <div class="image-box1">
+      <p>Tests were conducted under both stationary and moving bike conditions to comprehensively evaluate the prototype's performance. The results indicated that the prototype had a higher level of accuracy during the stationary test compared to the moving test. This difference in performance could be due to external factors, such as wind disturbances, which could have slightly affected arm movements during the moving test.</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+  <h1 class="Addinfo">Additional Documentation</h1>
+  <div class="outer-container2">
+    <div class="image-panel2">
+      <div class="image-container2">
+        <img src="images/ad3.png" alt="Image 1">
+      </div>
+      <div class="image-container2">
+        <iframe width="400" height="250" src="https://www.youtube.com/embed/0kCkj4nAF9I" frameborder="0" allowfullscreen style="border-radius: 15px;"></iframe>
+      </div>
+      
+      <div class="image-container2">
+        <img src="images/ad1.png" alt="Image 4">
+      </div>
+      <div class="image-container2">
+        <img src="images/ad2.png" alt="Image 2">
+      </div>
+    </div>
+    </div>
+
+
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+         <script src="Alkan-27.js"></script>
+</body>
+</html>
